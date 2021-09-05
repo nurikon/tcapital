@@ -1,0 +1,95 @@
+export const headerImages = [
+  { image: require("../images/profil1.png"), id: 1 },
+  { image: require("../images/profil2.png"), id: 2 },
+  { image: require("../images/profil3.png"), id: 3 },
+  { image: require("../images/profil4.png"), id: 4 },
+];
+
+export const carBrands = [
+  { image: require("../images/carBrand1.png"), id: 1 },
+  { image: require("../images/carBrand2.png"), id: 1 },
+  { image: require("../images/carBrand3.png"), id: 1 },
+  { image: require("../images/carBrand4.png"), id: 1 },
+  { image: require("../images/carBrand5.png"), id: 1 },
+  { image: require("../images/carBrand1.png"), id: 1 },
+  { image: require("../images/carBrand2.png"), id: 1 },
+  { image: require("../images/carBrand3.png"), id: 1 },
+];
+
+export const salesCars = [
+  {
+    profileImage: require("../images/profil1.png"),
+    logo: require("../images/carBrand1.png"),
+    image: require("../images/car1.png"),
+    id: 1,
+    name: "Ahmet Mehmet",
+    cardNumber: "33423",
+    statement:
+      "Öğretmenden Satılık 2012 Model Volvo S60 Hatasız Boyasız, Servis Bakımlı",
+    km: "15.000",
+    fuelType: "Benzin",
+    location: "Sarıyer, İstanbul",
+    modelDate: "1999",
+    price: "250.000",
+  },
+  {
+    profileImage: require("../images/profil2.png"),
+    logo: require("../images/carBrand2.png"),
+    image: require("../images/car2.png"),
+    id: 1,
+    name: "Ayşe Çetin",
+    cardNumber: "33423",
+    statement:
+      "Mal Ceviz, Dosta Gider Volvo S60 Hatasız Boyasız, Servis Bakımlı",
+    km: "65.000",
+    fuelType: "Benzin",
+    location: "selçuklu, Konya",
+    modelDate: "1999",
+    price: "250.000",
+  },
+  {
+    profileImage: require("../images/profil3.png"),
+    logo: require("../images/carBrand3.png"),
+    image: require("../images/car3.png"),
+    id: 1,
+    name: "Ahmet Çelik",
+    cardNumber: "33423",
+    statement:
+      "Öğretmenden Satılık 2012 Model Volvo S60 Hatasız Boyasız, Servis Bakımlı",
+    km: "75.000",
+    fuelType: "Benzin",
+    location: "Maltepe, İstanbul",
+    modelDate: "1999",
+    price: "250.000",
+  },
+  {
+    profileImage: require("../images/profil4.png"),
+    logo: require("../images/carBrand4.png"),
+    image: require("../images/car4.png"),
+    id: 1,
+    name: "Ahmet Mehmet",
+    cardNumber: "33423",
+    statement:
+      "Öğretmenden Satılık 2012 Model Volvo S60 Hatasız Boyasız, Servis Bakımlı",
+    km: "85.000",
+    fuelType: "Benzin",
+    location: "Maltepe, İstanbul",
+    modelDate: "1999",
+    price: "250.000",
+  },
+  {
+    profileImage: require("../images/profil1.png"),
+    logo: require("../images/carBrand1.png"),
+    image: require("../images/car1.png"),
+    id: 1,
+    name: "Ahmet Mehmet",
+    cardNumber: "33423",
+    statement:
+      "Öğretmenden Satılık 2012 Model Volvo S60 Hatasız Boyasız, Servis Bakımlı",
+    km: "105.000",
+    fuelType: "Benzin",
+    location: "Maltepe, İstanbul",
+    modelDate: "1999",
+    price: "250.000",
+  },
+];
